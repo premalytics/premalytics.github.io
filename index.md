@@ -5,6 +5,4 @@
 layout: home
 ---
 
-# Welcome to Premalytics
-
 Premalytics main page

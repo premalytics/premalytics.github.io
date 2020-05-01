@@ -2,4 +2,16 @@
 layout: default
 ---
 
-{{ content }}
+{% include navbar.html %}
+
+<div class="cover-img-container">
+    <div class="cover-img">
+        <h1 class="cover-img-text">Welcome to Premalytics</h1>
+    </div>
+</div>
+
+<div class="container" style="padding-top: 5em; min-height: 60em;">
+    {{ content }}
+</div>
+
+{% include footer.html %}
